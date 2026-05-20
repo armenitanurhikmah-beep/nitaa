@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adventure World</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            scroll-behavior: smooth;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background: url('https://images.unsplash.com/photo-1501785888041-af3ef285b470') no-repeat center/cover;
+            height: 100vh;
+            color: white;
+            text-align: center;
+        }
+
+        header h1 {
+            padding-top: 200px;
+            font-size: 50px;
+        }
+
+        nav {
+            background-color: #333;
+            padding: 12px;
+            text-align: center;
+            position: sticky;
+            top: 0;
+        }
+
+        nav a {
+            color: white;
+            margin: 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: yellow;
+        }
+
+        section {
+            padding: 50px;
+            text-align: center;
+        }
+
+        .card {
+            display: inline-block;
+            width: 260px;
+            margin: 15px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.2);
+            overflow: hidden;
+        }
+
+        .card img {
+            width: 100%;
+            height: 170px;
+            object-fit: cover;
+        }
+
+        form input, form textarea {
+            width: 60%;
+            padding: 10px;
+            margin: 5px;
+        }
+
+        button {
+            padding: 10px 20px;
+            background: green;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: darkgreen;
+        }
+
+        footer {
+            background: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+
+<header id="home">
+    <h1>Adventure World 🌍</h1>
+    <p>Jelajahi Dunia Tanpa Batas</p>
+</header>
+
+<nav>
+    <a href="#home">Home</a>
+    <a href="#about">Tentang</a>
+    <a href="#destinasi">Destinasi</a>
+    <a href="#contact">Kontak</a>
+</nav>
+
+<section id="destinasi">
+    <h2>Destinasi Adventure (Contoh Nyata)</h2>
+
+    <div class="card">
+        <img src="rinjani.jpg">
+        <h3>Gunung Rinjani</h3>
+        <p>Lombok, Indonesia. Gunung dengan pemandangan Danau Segara Anak yang indah, cocok untuk hiking dan camping.</p>
+    </div>
+
+    <div class="card">
+        <img src="hutanAmazon.jpg">
+        <h3>Hutan Amazon</h3>
+        <p>Amerika Selatan. Hutan hujan tropis terbesar di dunia, cocok untuk eksplorasi dan jungle trekking.</p>
+    </div>
+
+    <div class="card">
+        <img src="rajaAmpat.jpg">
+        <h3>Raja Ampat</h3>
+        <p>Papua, Indonesia. Terkenal dengan keindahan laut dan pulau karst, cocok untuk diving.</p>
+    </div>
+
+    <div class="card">
+        <img src="sungaiCitarik.jpg">
+        <h3>Sungai Citarik</h3>
+        <p>Sukabumi, Indonesia. Tempat arum jeram dengan arus yang menantang dan seru.</p>
+    </div>
+
+</section>
+
+<section id="contact">
+    <h2>Hubungi Kami</h2>
+
+    <p>Email: tianapulcherrima@gmail.com</p>
+
+    <form>
+        <input type="text" placeholder="Nama"><br>
+        <textarea placeholder="Pesan"></textarea><br>
+        <button>Kirim</button>
+    </form>
+</section>
+
+<footer>
+    <p>Petualangan adalah pengalaman terbaik dalam hidup 🌍</p>
+    <p>© 2026 Adventure World</p>
+</footer>
+
+</body>
+</html>
